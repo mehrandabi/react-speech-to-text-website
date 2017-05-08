@@ -1,0 +1,18 @@
+div.Result{
+  /*background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/form.png');*/
+  /*background-size: contain;*/
+  background-color: #226;
+  font-family: 'Abel';
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 2px solid goldenRod;
+  /*padding: 90px;*/
+  width: 610px;
+  /*height: 331px;*/
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  box-shadow: 5px 5px 5px #226;
+}

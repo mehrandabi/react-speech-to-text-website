@@ -1,0 +1,36 @@
+form.contactus-form{
+  margin-top: 150px;
+  color: white;
+  background-color: #225;
+  font-family: 'Abel';
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 15px;
+  width: 615px;
+  height: 400px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+.contactus-form button{
+  transition: all .5s ease-in-out;
+  background-color: GoldenRod;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 150px;
+  margin: auto;
+}
+.form-control:focus{
+  border-color: green;
+}
+.required {
+  color: red;
+}
+
+.description {
+  font-weight: bold;
+  color: yellow;
+}

@@ -1,0 +1,68 @@
+form.upload-form{
+  color: white;
+  background-color: #256;
+  font-family: 'Abel';
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid white;
+  width: 615px;
+  height: 350px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  /*box-shadow: 5px 5px 5px DodgerBlue;*/
+}
+input {
+  margin-bottom: 15px;
+}
+input[type=url]{
+  width: 390px;
+}
+input[type=file] {
+    position: relative;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    transition: all .5s ease-in-out;
+    background-color: GoldenRod;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.MyContainer{
+  padding-top: 20px;
+}
+input[type=submit]:hover {
+    background-color: DarkOrange;
+    transform: scale(1.1);
+}
+
+.navbar a{
+  transition: all .5s ease-in-out;
+}
+.navbar a:hover{
+  cursor: pointer;
+}
+img{
+  width : 50px;
+}
+.progress {
+  width: 390px;;
+  margin: auto;
+}
+/*div {
+    position: relative;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+}*/

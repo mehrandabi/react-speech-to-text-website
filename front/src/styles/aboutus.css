@@ -1,0 +1,11 @@
+.aboutus{
+  direction: rtl;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 25px;
+  background-color: #225;
+  line-height: 25px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 15px;
+}

@@ -1,0 +1,50 @@
+body {
+  color: white;
+  /*background-color: white;*/
+  background-image: url("../images/background-main.jpg");
+  background-size: auto;
+}
+.dropdown{
+  position: absolute;
+  color: red;
+}
+.dropdown button{
+  transition: all .5s ease-in-out;
+  /*background-color: Transparent;*/
+  background-color: #111;
+  border: none;
+  opacity: 0.5;
+  margin: 5px;
+}
+.dropdown button:hover {
+  color: goldenRod;
+}
+.dropdown-menu{
+  /*transition: all .5s ease-in-out;*/
+  line-height: 50px;
+  padding: 5px;
+  width: 50px;
+  font-size: 17px;
+  font-family: 'Abel';
+  background-color: white;
+}
+.dropdown ul{
+  background-color: #226;
+}
+.dropdown li a{
+  transition: all .5s ease-in-out;
+  color: white;
+}
+
+.dropdown li a:hover{
+  color: goldenRod;
+  background-color: #225;
+  cursor: pointer;
+}
+.dropdown{
+  transition: all .5s ease-in-out;
+  margin: 15px;
+  font-family: 'Abel';
+  font-size: 25px;
+  color: white;
+}
